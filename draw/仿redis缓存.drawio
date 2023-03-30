@@ -1,15 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T14:52:21.804Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="S6s8IiUa_G6NyaG4rLpH" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-30T14:55:46.504Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="XTFyjncR5t316uoeKsId" version="21.1.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2062" dy="1805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2046" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="yan-cache项目架构" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;" parent="1" vertex="1">
           <mxGeometry x="-530" y="-10" width="1440" height="610" as="geometry" />
         </mxCell>
-        <mxCell id="bj3f3ybngnkuZfRFfsyG-2" value="yan-cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-          <mxGeometry x="659" y="50" width="120" height="60" as="geometry" />
-        </mxCell>
+        <UserObject label="yan-cache" link="https://flowus.cn/yaniv-walker/share/bc33f456-0f5b-472a-8916-db922206863c" linkTarget="_blank" id="bj3f3ybngnkuZfRFfsyG-2">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="659" y="50" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="bj3f3ybngnkuZfRFfsyG-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="bj3f3ybngnkuZfRFfsyG-2" target="bj3f3ybngnkuZfRFfsyG-4" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
