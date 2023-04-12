@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T08:42:08.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="H7aioyOBXq9e1294wbMr" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T00:40:04.674Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="X5NMAXSnn4Aub-50Gdwq" version="21.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,7 +30,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-tPhF9snOgmPBrBe38WP-8" value="文档加签" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="530" y="50" width="126" height="40" as="geometry" />
+          <mxGeometry x="395" y="50" width="126" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-tPhF9snOgmPBrBe38WP-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-tPhF9snOgmPBrBe38WP-9" target="-tPhF9snOgmPBrBe38WP-25">
           <mxGeometry relative="1" as="geometry" />
@@ -39,7 +39,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-tPhF9snOgmPBrBe38WP-9" value="是否有免意愿&lt;br&gt;认证授权码" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="543.75" y="290" width="98.5" height="80" as="geometry" />
+          <mxGeometry x="408.75" y="290" width="98.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-tPhF9snOgmPBrBe38WP-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-tPhF9snOgmPBrBe38WP-13" target="-tPhF9snOgmPBrBe38WP-17">
           <mxGeometry relative="1" as="geometry" />
@@ -59,30 +59,30 @@
         </mxCell>
         <UserObject label="保存签章预设并校验意愿认证" tooltip="保存签章预设并校验意愿认证，生成意愿认证流水号以及预设以供签章时判断并使用。&#xa;接口：/dcc/mapp/esign/outer/sign-seal/service/save-seal-preset-and-verify-sms&#xa;该接口需要调用方传入之前查询到的印章预设信息（需要调用方自己组装）。" id="-tPhF9snOgmPBrBe38WP-19">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-            <mxGeometry x="533" y="430" width="120" height="60" as="geometry" />
+            <mxGeometry x="398" y="430" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="-tPhF9snOgmPBrBe38WP-24" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="553" y="380" width="40" height="30" as="geometry" />
+          <mxGeometry x="418" y="380" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-tPhF9snOgmPBrBe38WP-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-tPhF9snOgmPBrBe38WP-25" target="-tPhF9snOgmPBrBe38WP-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-tPhF9snOgmPBrBe38WP-25" value="意愿认证验证码短信发送" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="720" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="585" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-tPhF9snOgmPBrBe38WP-27" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="653" y="300" width="40" height="30" as="geometry" />
+          <mxGeometry x="518" y="300" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-tPhF9snOgmPBrBe38WP-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-tPhF9snOgmPBrBe38WP-28" target="-tPhF9snOgmPBrBe38WP-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-tPhF9snOgmPBrBe38WP-28" value="查询印章预设信息（外）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="533" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="398" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <UserObject label="OFD&lt;span&gt;、&lt;/span&gt;&lt;span lang=&quot;EN-US&quot;&gt;PDF&lt;/span&gt;&lt;span&gt;通用签章（加签）&lt;br&gt;&lt;/span&gt;" tooltip="OFD、PDF通用签章。&#xa;接口：/dcc/mapp/esign/outer/sign-seal/service/integrate/sign-file&#xa;" id="-tPhF9snOgmPBrBe38WP-32">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-            <mxGeometry x="533" y="555" width="120" height="60" as="geometry" />
+            <mxGeometry x="398" y="555" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
