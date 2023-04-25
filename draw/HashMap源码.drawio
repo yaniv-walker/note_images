@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-25T12:50:28.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="eUcvaOg4Xr_X3tSxcZ0I" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-25T12:58:26.574Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="a8DfCzvWsdh5tkIEbmjL" version="21.1.2" type="github">
   <diagram name="Page-1" id="Vj0aEQ0Pg-EJ8inA2DXI">
     <mxGraphModel dx="1036" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,39 +14,61 @@
           <mxGeometry x="266" y="125" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LFgCeZztLysT2PnFbGJx-7" value="影响性能的参数" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="LFgCeZztLysT2PnFbGJx-1">
-          <mxGeometry x="401" y="100" width="135" height="35" as="geometry" />
+          <mxGeometry x="401" y="67.5" width="135" height="35" as="geometry" />
         </mxCell>
         <mxCell id="LFgCeZztLysT2PnFbGJx-17" value="初始化容量" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="LFgCeZztLysT2PnFbGJx-1">
-          <mxGeometry x="566" y="70" width="100" height="30" as="geometry" />
+          <mxGeometry x="564" y="40" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LFgCeZztLysT2PnFbGJx-18" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="LFgCeZztLysT2PnFbGJx-17" parent="LFgCeZztLysT2PnFbGJx-1" source="LFgCeZztLysT2PnFbGJx-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="536" y="120" as="sourcePoint" />
+            <mxPoint x="534" y="90" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LFgCeZztLysT2PnFbGJx-19" value="负载因子" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="LFgCeZztLysT2PnFbGJx-1">
-          <mxGeometry x="566" y="105" width="90" height="30" as="geometry" />
+          <mxGeometry x="564" y="75" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LFgCeZztLysT2PnFbGJx-20" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="LFgCeZztLysT2PnFbGJx-19" parent="LFgCeZztLysT2PnFbGJx-1" source="LFgCeZztLysT2PnFbGJx-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="536" y="165" as="sourcePoint" />
+            <mxPoint x="534" y="135" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LFgCeZztLysT2PnFbGJx-21" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" target="LFgCeZztLysT2PnFbGJx-22" source="LFgCeZztLysT2PnFbGJx-17" parent="LFgCeZztLysT2PnFbGJx-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="218" as="sourcePoint" />
+            <mxPoint x="608" y="188" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LFgCeZztLysT2PnFbGJx-22" value="必须是2的幂，因为散列是通过&lt;br&gt;位与运算来将元素放入对应桶的" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="LFgCeZztLysT2PnFbGJx-1">
-          <mxGeometry x="651" y="60" width="210" height="40" as="geometry" />
+          <mxGeometry x="649" y="30" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LFgCeZztLysT2PnFbGJx-25" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" target="LFgCeZztLysT2PnFbGJx-26" source="LFgCeZztLysT2PnFbGJx-19" parent="LFgCeZztLysT2PnFbGJx-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="596" y="208" as="sourcePoint" />
+            <mxPoint x="594" y="178" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LFgCeZztLysT2PnFbGJx-26" value="影响数组的扩容速度，&lt;br&gt;需要权衡查询速度与空间" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="LFgCeZztLysT2PnFbGJx-1">
-          <mxGeometry x="656" y="95" width="170" height="40" as="geometry" />
+          <mxGeometry x="654" y="65" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LFgCeZztLysT2PnFbGJx-29" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="LFgCeZztLysT2PnFbGJx-30" source="LFgCeZztLysT2PnFbGJx-6" parent="LFgCeZztLysT2PnFbGJx-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="426" y="235" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LFgCeZztLysT2PnFbGJx-30" value="桶是否转红黑树的阈值" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="LFgCeZztLysT2PnFbGJx-1">
+          <mxGeometry x="401" y="190" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LFgCeZztLysT2PnFbGJx-31" value="桶中有多少元素时会转树，默认是8" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="LFgCeZztLysT2PnFbGJx-1">
+          <mxGeometry x="584" y="160" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LFgCeZztLysT2PnFbGJx-32" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="LFgCeZztLysT2PnFbGJx-31" parent="LFgCeZztLysT2PnFbGJx-1" source="LFgCeZztLysT2PnFbGJx-30">
+          <mxGeometry x="641" y="195" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LFgCeZztLysT2PnFbGJx-33" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="LFgCeZztLysT2PnFbGJx-34" source="LFgCeZztLysT2PnFbGJx-30" parent="LFgCeZztLysT2PnFbGJx-1">
+          <mxGeometry x="641" y="195" width="80" height="20" as="geometry">
+            <mxPoint x="621" y="295" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LFgCeZztLysT2PnFbGJx-34" value="Branch" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="LFgCeZztLysT2PnFbGJx-1">
+          <mxGeometry x="584" y="200" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
