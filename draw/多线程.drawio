@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T13:44:34.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.2.1" etag="xydpNPs9iu4Wxxud2sP6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-06T13:53:04.662Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="cPSueOk0sfZ0xl0ZR-E5" version="21.2.1" type="github">
   <diagram name="Page-1" id="1D4Jy_Kzfc-_KQnUi5Pj">
-    <mxGraphModel>
+    <mxGraphModel dx="1036" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="olrDs6UU_9o6FzXW2mun-1" value="Mindmap" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="830" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="olrDs6UU_9o6FzXW2mun-2" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="olrDs6UU_9o6FzXW2mun-1" source="olrDs6UU_9o6FzXW2mun-6" target="olrDs6UU_9o6FzXW2mun-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="olrDs6UU_9o6FzXW2mun-3" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="olrDs6UU_9o6FzXW2mun-1" source="olrDs6UU_9o6FzXW2mun-6" target="olrDs6UU_9o6FzXW2mun-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="olrDs6UU_9o6FzXW2mun-4" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="olrDs6UU_9o6FzXW2mun-1" source="olrDs6UU_9o6FzXW2mun-6" target="olrDs6UU_9o6FzXW2mun-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="olrDs6UU_9o6FzXW2mun-5" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="olrDs6UU_9o6FzXW2mun-1" source="olrDs6UU_9o6FzXW2mun-6" target="olrDs6UU_9o6FzXW2mun-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="olrDs6UU_9o6FzXW2mun-6" value="并行" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="olrDs6UU_9o6FzXW2mun-1">
+          <mxGeometry x="365" y="90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="olrDs6UU_9o6FzXW2mun-7" value="https://gitee.com/jd-platform-opensource/asyncToolpic" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="olrDs6UU_9o6FzXW2mun-1">
+          <mxGeometry x="400" y="65" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="olrDs6UU_9o6FzXW2mun-8" value="Branch" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="olrDs6UU_9o6FzXW2mun-1">
+          <mxGeometry x="525" y="110" width="72" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="olrDs6UU_9o6FzXW2mun-9" value="Topic" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="olrDs6UU_9o6FzXW2mun-1">
+          <mxGeometry x="225" y="70" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="olrDs6UU_9o6FzXW2mun-10" value="Branch" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="olrDs6UU_9o6FzXW2mun-1">
+          <mxGeometry x="225" y="110" width="72" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
